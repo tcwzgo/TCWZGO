@@ -44,3 +44,8 @@ output "question_4_number" {
 output "question_5_number" {
   value = module.write.question_5_number
 }
+
+module "data" {
+  source     = "./modules/data"
+  file_path  = module.files.file_path
+}
