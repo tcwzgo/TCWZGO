@@ -1,5 +1,15 @@
-variable "answer_1" {}
-variable "answer_2" {}
-variable "answer_3" {}
-variable "answer_4" {}
-variable "answer_5" {}
+variable "answer_1" {
+    default = 0
+}
+variable "answer_2" {
+    default = 0
+}
+variable "answer_3" {
+    default = 0
+}
+variable "answer_4" {
+    default = 0
+}
+variable "answer_5" {
+    default = 0
+}
